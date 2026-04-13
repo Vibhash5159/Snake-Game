@@ -135,7 +135,7 @@ int main() {
         Drawboard();
         SetColor(9);
         printf("\n");
-         printf("                       SCORE:%d        ",(snakeLength-1)*10);
+         printf("SCORE:%24d ",(snakeLength-1)*10);
         controls();
 
         // Check if snake eats fruit
